@@ -1,4 +1,5 @@
 import mainPic from "../assets/homePic.jpg";
+import "./Home.css";
 
 export default function Home() {
   return (

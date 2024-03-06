@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="nav">
-        <a href="/" target="_blank">
+        <a href="/home" target="_blank">
           <img src={tutorLogo} className="logo" alt="Tutoring logo" />
         </a>
         <ul>
@@ -15,10 +15,10 @@ export default function Navbar() {
             <a href="/classes">Classes</a>
           </li>
           <li>
-            <a href="/booking">Booking</a>
+            <a href="/booking">Contact Us</a>
           </li>
           <li>
-            <a href="/team">Team</a>
+            <a href="/team">Login</a>
           </li>
         </ul>
       </nav>
