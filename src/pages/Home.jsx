@@ -2,6 +2,7 @@ import mainPic from "../assets/homePic.jpg";
 import "./Home.css";
 
 export default function Home() {
+  console.log(window.location);
   return (
     <>
       <div className="home">
@@ -14,13 +15,16 @@ export default function Home() {
               are looking for a fun way to engage in school and gain musical and
               academic skills."
             </p>
-            <button className="signButton" onClick={""}>
+            <button
+              className="signButton"
+              onClick={() =>
+                (window.location = "http://localhost:5173/contact")
+              } //FIX UP window location before hosting
+            >
               Send us a message to get started
             </button>
           </div>
-          <a href="">
-            <img src={mainPic} className="mainPic" alt="Kid studying" />
-          </a>
+          <img src={mainPic} className="mainPic" alt="Kid studying" />
         </div>
         <div className="testimony">
           <h1>From our families...</h1>

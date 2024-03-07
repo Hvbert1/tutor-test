@@ -1,4 +1,5 @@
 import mainPic from "../assets/homePic.jpg";
+import "./About.css";
 
 export default function About() {
   return (
@@ -12,9 +13,7 @@ export default function About() {
               with modern learning tools so they achieve with confidence.
             </p>
           </div>
-          <a href="">
-            <img src={mainPic} className="aboutPic" alt="Kid studying" />
-          </a>
+          <img src={mainPic} className="aboutPic" alt="Kid studying" />
         </div>
         <div className="personalContainer">
           <h1>Our philosophy</h1>
@@ -32,40 +31,40 @@ export default function About() {
         <div className="teamContainer">
           <h1>Meet our tutors</h1>
           <div className="cards">
-            <div class="card">
+            <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p class="title">Tutor Name</p>
+              <p className="title">Tutor Name</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
-            <div class="card">
+            <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p class="title">Tutor Name</p>
+              <p className="title">Tutor Name</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
-            <div class="card">
+            <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p class="title">Tutor Name</p>
+              <p className="title">Tutor Name</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
-            <div class="card">
+            <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p class="title">Tutor Name</p>
+              <p className="title">Tutor Name</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.

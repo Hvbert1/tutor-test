@@ -1,5 +1,3 @@
-import tutorLogo from "../assets/logo.png";
-
 export default function Footer() {
   return (
     <>
@@ -11,9 +9,9 @@ export default function Footer() {
         <div className="footerCard">
           <h2>Find us online</h2>
           <div className="icons">
-            <i class="devicon-facebook-plain"></i>
-            <i class="devicon-linkedin-plain"></i>
-            <i class="devicon-twitter-original"></i>
+            <i className="devicon-facebook-plain"></i>
+            <i className="devicon-linkedin-plain"></i>
+            <i className="devicon-twitter-original"></i>
           </div>
         </div>
         <div className="footerCard">
