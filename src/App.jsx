@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
+import Registration from "./pages/Registration.jsx";
 import Login from "./pages/Login.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
@@ -23,6 +24,9 @@ function App() {
       break;
     case "/login":
       Component = Login;
+      break;
+    case "/registration":
+      Component = Registration;
       break;
   }
 
