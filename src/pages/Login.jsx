@@ -29,7 +29,8 @@ export default function Login() {
           <h1>TutorBird Login</h1>
           <p>
             Log into your child's Student Portal via TutorBird below. If you
-            haven't registered yet, you can do so here
+            haven't registered yet, you can do so{" "}
+            <a href="http://localhost:5173/registration">here.</a>
           </p>
         </div>
         <div className="tutorBirdContainer"></div>

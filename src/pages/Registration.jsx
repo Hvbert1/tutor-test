@@ -26,10 +26,10 @@ export default function Registration() {
     <>
       <div className="registrationContainer">
         <div className="registrationDescription">
-          <h1>TutorBird Registration</h1>
+          <h1>TutorBird Sign-up</h1>
           <p>
             Use the form below to register. If you have already registered, you
-            can login here.
+            can login <a href="http://localhost:5173/login">here.</a>
           </p>
         </div>
         <div className="tutorBirdRegContainer"></div>
