@@ -7,10 +7,13 @@ export default function About() {
       <div className="about">
         <div className="aboutContainer">
           <div className="aboutMain">
-            <h1>Schools and tests have changed, as have we. </h1>
+            <h1>
+              Schools and tests have changed, <br />
+              as have we.{" "}
+            </h1>
             <p className="aboutIntro">
               We tailor our learning experience for all students, and equip them
-              with modern learning tools so they achieve with confidence.
+              with modern learning tools so they can achieve with confidence.
             </p>
           </div>
           <img src={mainPic} className="aboutPic" alt="Kid studying" />

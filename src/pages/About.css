@@ -1,7 +1,25 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
 .aboutContainer {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  gap: 2.5rem;
+}
+
+.aboutMain {
+  padding: 1.25em;
+  max-width: 550px;
+  text-align: left;
+}
+
+.aboutMain h1 {
+  text-align: left;
 }
 
 .aboutPic {
@@ -13,7 +31,7 @@
 
 .personalContainer {
   margin-top: 50px;
-  background-color: pink;
+  background-color: #f8f7f3;
   padding: 5rem;
   border: solid black;
 }
@@ -27,7 +45,7 @@
 
 .card {
   height: min-content;
-  background-color: pink;
+  background-color: #fec667;
 }
 
 .tutorPic {
