@@ -4,26 +4,6 @@ import React, { useEffect } from "react";
 import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src =
-      //   "https://app.tutorbird.com/Widget/v4/Widget.ashx?settings=eyJTY2hvb2xJRCI6InNjaF9oNUNKVCIsIldlYnNpdGVJRCI6Indic19HV0oyIiwiV2Vic2l0ZUJsb2NrSUQiOiJ3YmJfMmpnSk4ifQ==";
-      script.async = true;
-
-    // Append the script tag to the specific element with the class name "contactContainer"
-    const contactContainer = document.querySelector(".contactContainer");
-    if (contactContainer) {
-      contactContainer.appendChild(script);
-    }
-
-    // Cleanup function to remove script element when component unmounts
-    return () => {
-      if (contactContainer && script.parentNode === contactContainer) {
-        contactContainer.removeChild(script);
-      }
-    };
-  }, []);
-
   return (
     <>
       <div className="contact">

@@ -1,0 +1,13 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.tutorBirdContainer {
+  border: 5px solid #fec667;
+  border-top: 10px solid #fec667;
+
+  max-width: 550px;
+}

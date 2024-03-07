@@ -37,7 +37,9 @@ export default function About() {
             <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p className="title">Tutor Name</p>
+              <p className="title">
+                <strong>Tutor Name</strong>
+              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -47,7 +49,9 @@ export default function About() {
             <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p className="title">Tutor Name</p>
+              <p className="title">
+                <strong>Tutor Name</strong>
+              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -57,7 +61,9 @@ export default function About() {
             <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p className="title">Tutor Name</p>
+              <p className="title">
+                <strong>Tutor Name</strong>
+              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -67,7 +73,9 @@ export default function About() {
             <div className="card">
               <img src={mainPic} className="tutorPic" alt="Kid studying" />
 
-              <p className="title">Tutor Name</p>
+              <p className="title">
+                <strong>Tutor Name</strong>
+              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
