@@ -30,7 +30,8 @@
 }
 
 .personalContainer {
-  margin-top: 50px;
+  max-width: 1280px;
+  margin: 50px;
   background-color: #f8f7f3;
   padding: 5rem;
   border: solid black;
