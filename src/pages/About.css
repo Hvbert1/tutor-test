@@ -1,10 +1,3 @@
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.25rem;
-}
-
 .aboutContainer {
   display: flex;
   justify-content: space-around;
@@ -37,21 +30,24 @@
   border: solid black;
 }
 
-.cards {
+.teamContainer {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.tutorList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: min-content;
   gap: 2rem;
 }
 
-.card {
+.tutorCard {
   height: min-content;
-  background-color: #fec667;
+  min-width: 250px;
+  margin-top: 50px;
 }
 
-.tutorPic {
-  width: 250px;
-  min-width: 250px;
-  box-shadow: 8px -8px 0 -3px #ffffff, 8px -8px 0 0 #000;
-  margin-top: 50px;
+.tutorCard img {
+  width: 200px;
 }
