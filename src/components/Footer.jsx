@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footerContent">
           <div className="footerCard">
             <h2>Location</h2>
-            <p>26 Carmel Pl, Winston Hills</p>
+            <p>Winston Hills NSW 2153</p>
           </div>
           <div className="footerCard">
             <h2>Find us online</h2>
@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="footerCard">
-            <h2>About SR Tutoring</h2>
+            <h2>About SAN Tutoring</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

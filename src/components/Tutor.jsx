@@ -1,10 +1,10 @@
 import React from "react";
 
-const Tutor = ({ name, pictureUrl, description }) => (
-  <div className="tutorCard">
-    <img src={pictureUrl} alt={name} />
+const Tutor = ({ name, pictureUrl, title, onClick }) => (
+  <div className="tutorCard" onClick={onClick}>
+    <img src={pictureUrl} alt={"tutorImg"} />
     <h2>{name}</h2>
-    <p>{description}</p>
+    <p>{title}</p>
   </div>
 );
 

@@ -2,7 +2,7 @@ import mainPic from "../assets/homePic.jpg";
 import "./About.css";
 import React, { useRef, useState } from "react";
 import TutorList from "../components/TutorList";
-import Modal from "../components/Modal";
+// import Modal from "../components/Modal";
 import tutors from "../components/tutorData";
 
 export default function About() {
@@ -18,6 +18,19 @@ export default function About() {
       : dialogRef.current.showModal();
   };
 
+  const handleTutorClick = (tutor) => {
+    // setDialogContent(<Modal tutor={tutor} />);
+    setDialogContent(
+      <div>
+        <button onClick={toggleDialog}>✖</button>
+        <h2>{tutor.name}</h2>
+        <h4>{tutor.title}</h4>
+        <p>{tutor.description}</p>
+      </div>
+    );
+    toggleDialog();
+  };
+
   return (
     <>
       <div className="about">
@@ -25,7 +38,7 @@ export default function About() {
           <div className="aboutMain">
             <h1>
               Schools and tests have changed, <br />
-              as have we.{" "}
+              as have we.
             </h1>
             <p className="aboutIntro">
               We tailor our learning experience for all students, and equip them
@@ -49,16 +62,8 @@ export default function About() {
         </div>
         <div className="teamContainer">
           <h1>Our Tutors</h1>
-          <TutorList tutors={tutors} />
+          <TutorList tutors={tutors} onTutorClick={handleTutorClick} />
         </div>
-        <button
-          onClick={() => {
-            setDialogContent(<Modal></Modal>);
-            toggleDialog();
-          }}
-        >
-          Open
-        </button>
         <dialog
           ref={dialogRef}
           onClick={(e) => {
@@ -68,7 +73,6 @@ export default function About() {
           }}
         >
           {dialogContent}
-          <button onClick={toggleDialog}>Close</button>
         </dialog>
       </div>
     </>

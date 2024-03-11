@@ -46,11 +46,30 @@
   height: min-content;
   min-width: 250px;
   margin-top: 50px;
+  cursor: pointer;
+}
+
+.tutorCard:hover {
+  box-shadow: 0 0 20px #d8e6e6;
 }
 
 .tutorCard img {
   width: 200px;
 }
 
-dialog::backdrop {
+dialog {
+  box-shadow: -8px 8px 0 -3px #d8e6e6, -8px 8px 0 0 #000;
+  padding: 1.6rem;
+  max-width: 400px;
+  text-align: left;
+}
+
+dialog button {
+  background-color: #e8946e;
+  border: 3px solid black;
+  border-radius: 1px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
 }
