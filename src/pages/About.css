@@ -51,3 +51,6 @@
 .tutorCard img {
   width: 200px;
 }
+
+dialog::backdrop {
+}

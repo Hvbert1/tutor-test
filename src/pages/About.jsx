@@ -7,10 +7,23 @@ import tutor5 from "../assets/tutors/5.png";
 import tutor6 from "../assets/tutors/6.png";
 import tutor7 from "../assets/tutors/7.png";
 import "./About.css";
-import React from "react";
+import React, { useRef, useState } from "react";
 import TutorList from "../components/TutorList";
+import Modal from "../components/Modal";
 
 export default function About() {
+  const [dialogContent, setDialogContent] = useState(null);
+  const dialogRef = useRef(null);
+
+  const toggleDialog = () => {
+    if (!dialogRef.current) {
+      return;
+    }
+    dialogRef.current.hasAttribute("open")
+      ? dialogRef.current.close()
+      : dialogRef.current.showModal();
+  };
+
   const tutors = [
     {
       id: 1,
@@ -89,6 +102,25 @@ export default function About() {
           <h1>Our Tutors</h1>
           <TutorList tutors={tutors} />
         </div>
+        <button
+          onClick={() => {
+            setDialogContent(<Modal></Modal>);
+            toggleDialog();
+          }}
+        >
+          Open
+        </button>
+        <dialog
+          ref={dialogRef}
+          onClick={(e) => {
+            if (e.currentTarget === e.target) {
+              toggleDialog();
+            }
+          }}
+        >
+          {dialogContent}
+          <button onClick={toggleDialog}>Close</button>
+        </dialog>
       </div>
     </>
   );
