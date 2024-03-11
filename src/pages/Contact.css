@@ -27,7 +27,7 @@ form {
   padding: 2rem;
   background-color: white;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: 1px 1px 10px 5px lightgrey;
 }
 
@@ -68,7 +68,7 @@ input {
   padding: 0.5em;
   border: solid 1px grey;
   min-width: 100%;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 textarea {

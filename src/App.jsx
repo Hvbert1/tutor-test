@@ -3,6 +3,7 @@
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
+import Classes from "./pages/Classes.jsx";
 import Contact from "./pages/Contact.jsx";
 import Registration from "./pages/Registration.jsx";
 import Login from "./pages/Login.jsx";
@@ -18,6 +19,9 @@ function App() {
       break;
     case "/about":
       Component = About;
+      break;
+    case "/classes":
+      Component = Classes;
       break;
     case "/contact":
       Component = Contact;

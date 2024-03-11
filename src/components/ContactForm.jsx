@@ -1,6 +1,6 @@
 import React from "react";
 
-function ContactForm() {
+function ContactForm({ legend, introText }) {
   const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
@@ -29,15 +29,15 @@ function ContactForm() {
   return (
     <div>
       <form onSubmit={onSubmit}>
-        <legend>Contact Us</legend>
-        <p> Fill up the form below to send us a message. </p>
+        <legend>{legend}</legend>
+        <p> {introText} </p>
         <input //honeypot to prevent spam
           type="checkbox"
           name="botcheck"
           className="hidden"
           style={{ display: "none" }}
         />
-        <label for="name">Full Name</label>
+        <label htmlFor="name">Full Name</label>
         <input
           type="text"
           id="name"
@@ -45,17 +45,17 @@ function ContactForm() {
           placeholder="John Doe"
           required
         />
-        <label for="email">Email Address</label>
+        <label htmlFor="email">Email Address</label>
         <input
           type="email"
           name="email"
           placeholder="you@company.com"
           required
         />
-        <label for="phone">Phone Number</label>
+        <label htmlFor="phone">Phone Number</label>
         <input type="text" name="phone" placeholder="0412345678" />
 
-        <label for="message">Your Message</label>
+        <label htmlFor="message">Your Message</label>
         <textarea name="message" placeholder="Your message" required></textarea>
 
         <button type="submit">Submit Form</button>

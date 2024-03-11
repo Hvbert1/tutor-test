@@ -1,6 +1,6 @@
 import mainPic from "../assets/homePic.jpg";
 import "./Contact.css";
-import React, { useEffect } from "react";
+import React from "react";
 import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
@@ -26,7 +26,10 @@ export default function Contact() {
             </div>
             <img src={mainPic} className="aboutPic" alt="Kid studying" />
           </div>
-          <ContactForm></ContactForm>
+          <ContactForm
+            legend="Contact Us"
+            introText="Fill up the form below to send us a message."
+          ></ContactForm>
         </div>
       </div>
     </>

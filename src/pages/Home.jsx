@@ -2,7 +2,6 @@ import mainPic from "../assets/homePic.jpg";
 import "./Home.css";
 
 export default function Home() {
-  console.log(window.location);
   return (
     <>
       <div className="home">
