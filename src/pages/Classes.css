@@ -51,7 +51,7 @@ button {
   display: flex;
   justify-content: center;
   max-width: 1280px;
-  box-shadow: 0 0 20px #d8e6e6;
+  box-shadow: 0 0 20px lightgray;
   margin: auto;
 }
 
@@ -96,7 +96,7 @@ ul li {
 .priceCard button {
   color: white;
   width: 150px;
-  margin: 10px auto;
+  margin: 10px auto 40px auto;
   background-color: #e8946e;
   border: none;
   padding: 0.5rem;

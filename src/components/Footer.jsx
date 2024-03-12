@@ -10,9 +10,8 @@ export default function Footer() {
           <div className="footerCard">
             <h2>Find us online</h2>
             <div className="icons">
-              <i className="devicon-facebook-plain"></i>
-              <i className="devicon-linkedin-plain"></i>
-              <i className="devicon-twitter-original"></i>
+              <ion-icon name="logo-facebook" aria-label="facebook"></ion-icon>
+              <ion-icon name="logo-instagram" aria-label="instagram"></ion-icon>
             </div>
           </div>
           <div className="footerCard">
