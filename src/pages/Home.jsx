@@ -1,4 +1,4 @@
-import mainPic from "../assets/homePic.jpg";
+import homePic from "../assets/2.png";
 import "./Home.css";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
               Send us a message to get started
             </button>
           </div>
-          <img src={mainPic} className="mainPic" alt="Kid studying" />
+          <img src={homePic} className="homePic" alt="Kid studying" />
         </div>
         <div className="testimony">
           <h1>From our families...</h1>

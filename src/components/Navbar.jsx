@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
       <nav className="navContainer">
         <div className="navContent">
-          <a href="/home" target="_blank">
+          <a href="/home">
             <img src={tutorLogo} className="logo" alt="Tutoring logo" />
           </a>
           <ul>

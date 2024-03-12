@@ -35,11 +35,11 @@ function App() {
   }
 
   return (
-    <>
+    <div className="container">
       <Navbar></Navbar>
       <Component></Component>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

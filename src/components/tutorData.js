@@ -5,6 +5,7 @@ import tutor4 from "../assets/tutors/4.png";
 import tutor5 from "../assets/tutors/5.png";
 import tutor6 from "../assets/tutors/6.png";
 import tutor7 from "../assets/tutors/7.png";
+import tutor8 from "../assets/tutors/8.png";
 
 const tutors = [
   {
@@ -60,6 +61,13 @@ const tutors = [
     title: "Math and English tutor",
     description:
       "I'm studying a Bachelor of Medical Science, majoring in Pathology at UTS. I love music, singing especially. My other hobbies include reading and a bit of calligraphy :)",
+  },
+  {
+    id: 8,
+    name: "Feliciana",
+    pictureUrl: tutor8,
+    title: "Math and English tutor",
+    description: "Coming soon",
   },
 ];
 

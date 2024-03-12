@@ -1,4 +1,4 @@
-import mainPic from "../assets/homePic.jpg";
+import contactPic from "../assets/3.png";
 import "./Contact.css";
 import React from "react";
 import ContactForm from "../components/ContactForm";
@@ -24,7 +24,7 @@ export default function Contact() {
                 day.
               </p>
             </div>
-            <img src={mainPic} className="aboutPic" alt="Kid studying" />
+            <img src={contactPic} className="contactPic" alt="Kid studying" />
           </div>
           <ContactForm
             legend="Contact Us"

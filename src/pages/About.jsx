@@ -1,4 +1,4 @@
-import mainPic from "../assets/homePic.jpg";
+import mainPic from "../assets/4.png";
 import "./About.css";
 import React, { useRef, useState } from "react";
 import TutorList from "../components/TutorList";
@@ -19,7 +19,6 @@ export default function About() {
   };
 
   const handleTutorClick = (tutor) => {
-    // setDialogContent(<Modal tutor={tutor} />);
     setDialogContent(
       <div>
         <button onClick={toggleDialog}>✖</button>

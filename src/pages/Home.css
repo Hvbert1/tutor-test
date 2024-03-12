@@ -8,13 +8,23 @@
 
 .homeContainer {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  max-width: 1280px;
 }
 
-.home .mainPic {
-  width: 75%;
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+  text-align: left;
+  max-width: 550px;
+}
+
+.home .homePic {
   min-width: 350px;
-  box-shadow: 8px -8px 0 -3px #f5f7f5, 8px -8px 0 0 #000;
+  max-width: 600px;
   margin-top: 50px;
 }
 
@@ -25,6 +35,7 @@
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
+  max-width: 350px;
 }
 
 .signButton:hover {
@@ -33,7 +44,7 @@
 
 .testimony {
   display: grid;
-  width: 450px;
+  max-width: 450px;
   padding: 3rem;
   border-top: 10px solid #fec667;
   background-color: #f8f7f3;
@@ -44,4 +55,13 @@
   font-style: italic;
   opacity: 85%;
   color: #2c3737;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeMain {
+    align-items: center;
+  }
+  .homeContainer {
+    flex-direction: column;
+  }
 }

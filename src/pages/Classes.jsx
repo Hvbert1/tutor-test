@@ -1,4 +1,4 @@
-import mainPic from "../assets/homePic.jpg";
+import mainPic from "../assets/1.png";
 import "./Classes.css";
 import ContactForm from "../components/ContactForm";
 
@@ -6,7 +6,7 @@ export default function Classes() {
   const handleClick = () => {
     document
       .getElementById("startForm")
-      .scrollIntoView({ behavior: "smooth", block: "center" }); //FIX UP window location before hosting
+      .scrollIntoView({ behavior: "smooth", block: "center" });
   };
 
   return (
