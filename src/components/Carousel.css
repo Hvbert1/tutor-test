@@ -1,0 +1,81 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 700px;
+  background-color: #f8f7f3;
+  border: 3px solid black;
+}
+
+.carousel h1 {
+  margin-top: 50px;
+}
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carouselItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f7f3;
+  font-size: 1.125em;
+  margin: 25px 0;
+  padding: 0 5rem 0 5rem;
+  white-space: normal;
+}
+
+.carouselDesc {
+  color: #2c3737;
+  font-style: italic;
+  text-align: left;
+}
+
+.star-symbol {
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.carouselName {
+  /* margin-top: 10px; */
+  text-align: right;
+  font-weight: 600;
+}
+
+.carouselButtons {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+}
+
+.buttonArrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicatorButtons {
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  background: none;
+}
+
+.indicatorSymbol {
+  color: grey;
+}
+
+.indicatorSynmbolActive {
+  color: orange;
+}

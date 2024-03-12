@@ -42,21 +42,6 @@
   cursor: pointer;
 }
 
-.testimony {
-  display: grid;
-  max-width: 450px;
-  padding: 3rem;
-  border-top: 10px solid #fec667;
-  background-color: #f8f7f3;
-  color: #2c3737;
-}
-
-.testimony p {
-  font-style: italic;
-  opacity: 85%;
-  color: #2c3737;
-}
-
 @media only screen and (max-width: 600px) {
   .homeMain {
     align-items: center;

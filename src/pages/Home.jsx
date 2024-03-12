@@ -1,5 +1,6 @@
 import homePic from "../assets/2.png";
 import "./Home.css";
+import { Carousel } from "../components/Carousel";
 
 export default function Home() {
   return (
@@ -25,16 +26,7 @@ export default function Home() {
           </div>
           <img src={homePic} className="homePic" alt="Kid studying" />
         </div>
-        <div className="testimony">
-          <h1>From our families...</h1>
-          <p>
-            "My tutor, Sanchea, seemed to have a lesson for any obscure concept
-            that I needed help with, from the big picture to the smallest
-            detail. She also gave me a number of test-taking strategies,
-            including the exact timing I needed to achieve on a test given my
-            previous history."
-          </p>
-        </div>
+        <Carousel></Carousel>
       </div>
     </>
   );
