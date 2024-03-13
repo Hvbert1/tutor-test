@@ -37,6 +37,7 @@
   font-size: 3rem;
   text-align: left;
   margin-left: 60px;
+  color: #ff914d;
 }
 
 .carouselName {
@@ -77,5 +78,5 @@
 }
 
 .indicatorSynmbolActive {
-  color: orange;
+  color: #e8946e;
 }

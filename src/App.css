@@ -27,6 +27,7 @@ body {
   color: black;
   box-shadow: 0 3px 2px -2px lightgrey;
   width: 100%;
+  overflow: hidden;
 }
 
 .navContent {
@@ -64,6 +65,11 @@ body {
   color: orange;
 }
 
+.navContainer span {
+  font-size: 32px;
+  padding: 14px 16px;
+}
+
 .logo {
   height: 6.25em;
   padding: 1em 0;
@@ -98,4 +104,44 @@ ion-icon {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+@media only screen and (min-width: 601px) {
+  .navDropdown,
+  .dropdownContent {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navDropdown {
+    display: block;
+    cursor: pointer;
+  }
+  .dropdownContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 0 20px lightgray;
+    gap: 2rem;
+  }
+
+  .dropdownContent a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #2c3737;
+    font-weight: 500;
+  }
+
+  .dropdownContent a:hover {
+    color: orange;
+  }
+
+  .navHeader {
+    display: none !important;
+  }
 }
