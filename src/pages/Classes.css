@@ -112,6 +112,10 @@ ul li {
     gap: 1rem;
   }
 
+  .classMain {
+    text-align: center;
+  }
+
   .priceCards {
     display: flex;
     flex-direction: column;

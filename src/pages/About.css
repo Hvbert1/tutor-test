@@ -80,4 +80,7 @@ dialog button {
   .aboutContainer {
     flex-direction: column;
   }
+  .aboutPic {
+    width: 380px;
+  }
 }

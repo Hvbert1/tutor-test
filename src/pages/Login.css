@@ -1,6 +1,9 @@
+.loginDescription {
+  padding: 1.25rem;
+}
+
 .tutorBirdContainer {
-  border: 5px solid #fec667;
-  border-top: 10px solid #fec667;
+  box-shadow: 0 0 20px lightgray;
   margin: 50px auto;
   max-width: 550px;
 }

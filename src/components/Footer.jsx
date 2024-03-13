@@ -10,8 +10,15 @@ export default function Footer() {
           <div className="footerCard">
             <h2>Find us online</h2>
             <div className="icons">
-              <ion-icon name="logo-facebook" aria-label="facebook"></ion-icon>
-              <ion-icon name="logo-instagram" aria-label="instagram"></ion-icon>
+              <a href="https://facebook.com">
+                <ion-icon name="logo-facebook" aria-label="facebook"></ion-icon>
+              </a>
+              <a href="https://instagram.com">
+                <ion-icon
+                  name="logo-instagram"
+                  aria-label="instagram"
+                ></ion-icon>
+              </a>
             </div>
           </div>
           <div className="footerCard">

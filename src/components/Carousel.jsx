@@ -20,7 +20,7 @@ export const Carousel = () => {
     {
       key: 3,
       description:
-        '"Sanchea has been an amazing and diligent tutor for me within english and maths. She has helped me  developed my analytical writing skills that I ended up transforming my grades from C to an A. Furthermore, she has also helped me in maths by breaking down a problem and make it simpler to solve. Overall, Sanchea is a hardworking and diligent tutor that will help your child achieve their desire results."',
+        '"Sanchea has been an amazing and diligent tutor for me within english and maths. She has helped me  developed my analytical writing skills that I ended up transforming my grades from C to an A."',
       person: "-Aloha",
     },
   ];

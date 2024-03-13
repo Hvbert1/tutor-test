@@ -1,4 +1,8 @@
+.registrationDescription {
+  padding: 1.25rem;
+}
 .registrationContainer {
   max-width: 550px;
   margin: auto;
+  padding: 1rem;
 }

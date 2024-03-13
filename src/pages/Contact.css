@@ -16,10 +16,10 @@
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: left;
+  padding: 1.25rem;
 }
 
 .contactPic {
-  min-width: 350px;
   max-width: 550px;
 }
 
@@ -88,5 +88,10 @@ textarea {
     display: flex;
     text-align: center;
     flex-direction: column;
+  }
+
+  .contactPic {
+    margin-top: 1.5rem;
+    width: 350px;
   }
 }
