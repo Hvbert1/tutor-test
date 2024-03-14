@@ -10,10 +10,10 @@ export default function Home() {
           <div className="homeMain">
             <h1>Academics & confidence, boosted.</h1>
             <p className="bio">
-              "Based in Winston Hills, piano and tutoring classes are offered to
-              students K-12 in the home studio or online. If your little ones
-              are looking for a fun way to engage in school and gain musical and
-              academic skills."
+              “Based in Winston Hills, tuition classes are offered to K-12
+              students at our studio or online. With individual lesson plans and
+              a focus on confidence, Study and Notes provides excellent service,
+              as seen through our fantastic tutors and amazing parent reviews!”
             </p>
             <button
               className="signButton"

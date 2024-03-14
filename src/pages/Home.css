@@ -23,6 +23,12 @@
   padding: 1.25em;
 }
 
+.homeMain .bio {
+  font-size: 1.125em;
+  color: #646b6b;
+  margin-bottom: 1rem;
+}
+
 .home .homePic {
   min-width: 350px;
   max-width: 600px;

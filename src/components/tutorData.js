@@ -13,14 +13,16 @@ const tutors = [
     name: "Sanchea Rodrigues",
     pictureUrl: tutor1,
     title: "Founder + Primary School Teacher",
-    description: "Coming soon...",
+    description:
+      "Hi! I’m the owner of Study and Notes. As a primary school teacher, I love helping kids excel in their academics and piano skills. I am an avid reader, and crochet in my spare time :)",
   },
   {
     id: 2,
     name: "Ananya",
     pictureUrl: tutor2,
     title: "Math and English tutor",
-    description: "Coming soon...",
+    description:
+      "The degree I’m studying is bachelor or politics philosophy and economics at UNSW. For my pastime, I love cooking, spending time with my family and engaging in self and skin care!     ",
   },
   {
     id: 3,
@@ -36,7 +38,7 @@ const tutors = [
     pictureUrl: tutor4,
     title: "Math and English tutor",
     description:
-      "I'm a uni student studying a Bachelor of business and information systems at uts. For fun I play a lot of cricket and video games, and I'm really passionate about everything I try.",
+      "I'm studying a Bachelor of business and information systems at UTS. For fun I play a lot of cricket and video games, and I'm really passionate about everything I try.",
   },
   {
     id: 5,
@@ -44,7 +46,7 @@ const tutors = [
     pictureUrl: tutor5,
     title: "Math and English tutor",
     description:
-      "I’m currently undertaking a Bachelor of Engineering (Honours)/Master of Biomedical Engineering double degree course at UNSW. Alongside my studies, I love playing badminton for fun, used to do training, also enjoy bowling, gaming and watching movies.    ",
+      "I’m currently undertaking a Bachelor of Engineering (Honours)/Master of Biomedical Engineering double degree course at UNSW. Alongside my studies, I love playing badminton for fun, used to do training, also enjoy bowling, gaming and watching movies.",
   },
   {
     id: 6,
@@ -52,7 +54,7 @@ const tutors = [
     pictureUrl: tutor6,
     title: "Math, English and Piano tutor",
     description:
-      "I’m studying a double degree of Bachelor of Law and Bachelor of Arts. I’m trained in classical piano and enjoy reading books. I’m always excited to try new things so I would say I’m quite spontaneous. ",
+      "I’m studying a double degree of Bachelor of Law and Bachelor of Arts. I’m trained in classical piano and enjoy reading books. I’m always excited to try new things so I would say I’m quite spontaneous.",
   },
   {
     id: 7,
@@ -67,7 +69,8 @@ const tutors = [
     name: "Feliciana",
     pictureUrl: tutor8,
     title: "Math and English tutor",
-    description: "Coming soon",
+    description:
+      "I enjoy playing the piano in my free time and attend weekly piano lessons to keep in touch with this passion. I also have a passion for teaching as I aspire to be a paediatric speech pathologists.",
   },
 ];
 

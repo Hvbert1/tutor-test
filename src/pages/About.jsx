@@ -48,16 +48,29 @@ export default function About() {
         </div>
         <div className="personalContainer">
           <h1>Our philosophy</h1>
-          <p className="personalBody">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat
-            ac tincidunt vitae semper. Tincidunt tortor aliquam nulla facilisi
-            cras fermentum odio eu. Mi tempus imperdiet nulla malesuada
-            pellentesque. Leo vel orci porta non. Ac orci phasellus egestas
-            tellus rutrum tellus pellentesque eu tincidunt. Dolor sit amet
-            consectetur adipiscing elit duis tristique. Erat imperdiet sed
-            euismod nisi porta.
-          </p>
+          <div className="personalBody">
+            <p>
+              Our philosophy at Study and Notes is simple yet impactful. Founded
+              by a passionate primary school teacher, we offer tutoring services
+              for students of all ages, from primary to high school, in a
+              dynamic and engaging manner.
+            </p>
+            <p>
+              At the heart of our teaching methodology lies the student-centered
+              learning approach. We believe that every child learns differently,
+              and by tailoring our lessons to the individual needs and learning
+              styles of each student, we foster a deep understanding and a
+              genuine love for learning. This personalized approach not only
+              enhances academic performance but also nurtures the child's
+              confidence, paving the way for remarkable growth in both skills
+              and self-esteem.
+            </p>
+            <p>
+              Experience the difference with Study and Notes, where learning is
+              not just about grades, but about unlocking the full potential of
+              every student.
+            </p>
+          </div>
         </div>
         <div className="teamContainer">
           <h1>Our Tutors</h1>
