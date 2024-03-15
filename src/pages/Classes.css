@@ -1,9 +1,7 @@
 .class {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 5rem;
-  padding: 1rem;
 }
 
 .classContainer {
@@ -12,6 +10,7 @@
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  padding: 1.25rem;
 }
 
 .classMain {
@@ -19,8 +18,12 @@
   max-width: 550px;
 }
 
+.classMain p {
+  font-size: 1.125em;
+  color: #646b6b;
+}
+
 .mainPic {
-  width: 100%;
   min-width: 350px;
   max-width: 550px;
   margin-top: 50px;
@@ -33,26 +36,20 @@
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
-}
-
-button {
   cursor: pointer;
 }
 
 .priceContainer {
   background-color: #f8f7f3;
-  width: 65%;
-  margin: 50px;
-  padding: 5rem;
-  border: solid black;
+  padding: 3rem;
 }
 
 .priceCards {
   display: flex;
   justify-content: center;
-  max-width: 1280px;
   box-shadow: 0 0 20px lightgray;
   margin: auto;
+  max-width: 1280px;
 }
 
 .priceCard {
@@ -79,8 +76,8 @@ button {
 
 .priceCardDesc {
   text-align: left;
-  max-width: 350px;
-  margin-left: 25px;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 ul li {
@@ -100,10 +97,13 @@ ul li {
   background-color: #e8946e;
   border: none;
   padding: 0.5rem;
+  cursor: pointer;
 }
 
 .class form {
-  padding: 5rem !important;
+  padding: 3.125rem !important;
+  max-width: 550px;
+  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {

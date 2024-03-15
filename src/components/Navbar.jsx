@@ -8,6 +8,8 @@ export default function Navbar() {
     setDropdownOpen(!dropdownOpen);
   };
 
+  const currentPathname = window.location.pathname;
+
   return (
     <>
       <nav className="navContainer">
@@ -17,16 +19,36 @@ export default function Navbar() {
           </a>
           <ul className="navHeader">
             <li>
-              <a href="/about">About</a>
+              <a
+                href="/about"
+                className={currentPathname === "/about" ? "active" : ""}
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="/classes">Classes</a>
+              <a
+                href="/classes"
+                className={currentPathname === "/classes" ? "active" : ""}
+              >
+                Classes
+              </a>
             </li>
             <li>
-              <a href="/contact">Contact Us</a>
+              <a
+                href="/contact"
+                className={currentPathname === "/contact" ? "active" : ""}
+              >
+                Contact Us
+              </a>
             </li>
             <li>
-              <a href="/login">Login</a>
+              <a
+                href="/login"
+                className={currentPathname === "/login" ? "active" : ""}
+              >
+                Login
+              </a>
             </li>
           </ul>
           <li className="navDropdown">

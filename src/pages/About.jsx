@@ -2,7 +2,6 @@ import mainPic from "../assets/4.png";
 import "./About.css";
 import React, { useRef, useState } from "react";
 import TutorList from "../components/TutorList";
-// import Modal from "../components/Modal";
 import tutors from "../components/tutorData";
 
 export default function About() {

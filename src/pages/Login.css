@@ -2,6 +2,11 @@
   padding: 1.25rem;
 }
 
+.loginDescription p {
+  font-size: 1.125em;
+  color: #646b6b;
+}
+
 .tutorBirdContainer {
   box-shadow: 0 0 20px lightgray;
   margin: 50px auto;

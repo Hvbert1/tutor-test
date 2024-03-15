@@ -57,12 +57,13 @@ body {
   align-items: center;
 }
 
-.navContent li.active {
-  background-color: purple;
+.navContent a.active {
+  text-decoration: underline;
+  color: #e8946e;
 }
 
 .navContent li:hover {
-  color: orange;
+  color: #e8946e;
 }
 
 .navContainer span {

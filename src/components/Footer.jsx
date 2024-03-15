@@ -13,7 +13,7 @@ export default function Footer() {
               <a href="https://facebook.com">
                 <ion-icon name="logo-facebook" aria-label="facebook"></ion-icon>
               </a>
-              <a href="https://instagram.com">
+              <a href="https://instagram.com/studyandnotes26">
                 <ion-icon
                   name="logo-instagram"
                   aria-label="instagram"
@@ -24,9 +24,10 @@ export default function Footer() {
           <div className="footerCard">
             <h2>About SAN Tutoring</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Elementum nisi quis eleifend quam adipiscing vitae.
+              Study and Notes (SAN) is a tutoring service founded by a primary
+              school teacher, with the goal of fostering success for every
+              child, not just within the classroom but in every aspect of their
+              lives.
             </p>
           </div>
         </div>
