@@ -18,6 +18,12 @@
   text-align: left;
 }
 
+.aboutMain p,
+.personalContainer p {
+  font-size: 1.125em;
+  color: #646b6b;
+}
+
 .aboutPic {
   min-width: 350px;
   max-width: 700px;
@@ -25,11 +31,18 @@
 }
 
 .personalContainer {
-  max-width: 1280px;
-  margin: 50px auto;
+  margin: 50px 1.125rem;
   background-color: #f8f7f3;
   padding: 5rem;
   border: solid black;
+  gap: 1.125rem;
+}
+
+.personalBody {
+  gap: 1rem;
+  text-align: left;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 .teamContainer {
@@ -82,5 +95,9 @@ dialog button {
   }
   .aboutPic {
     width: 380px;
+  }
+
+  .personalBody {
+    text-align: center;
   }
 }

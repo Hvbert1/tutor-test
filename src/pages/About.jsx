@@ -60,7 +60,7 @@ export default function About() {
               learning approach. We believe that every child learns differently,
               and by tailoring our lessons to the individual needs and learning
               styles of each student, we foster a deep understanding and a
-              genuine love for learning. This personalized approach not only
+              genuine love for learning. This personalised approach not only
               enhances academic performance but also nurtures the child's
               confidence, paving the way for remarkable growth in both skills
               and self-esteem.
