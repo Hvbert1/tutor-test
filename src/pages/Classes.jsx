@@ -1,12 +1,21 @@
 import mainPic from "../assets/1.png";
 import "./Classes.css";
 import ContactForm from "../components/ContactForm";
+import React, { useState } from "react";
 
 export default function Classes() {
   const handleClick = () => {
     document
       .getElementById("startForm")
       .scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
+  const [flips, setFlips] = useState([false, false, false, false]);
+
+  const handleFlip = (index) => {
+    const newFlips = [...flips];
+    newFlips[index] = !newFlips[index];
+    setFlips(newFlips);
   };
 
   return (
@@ -24,6 +33,43 @@ export default function Classes() {
             </button>
           </div>
           <img src={mainPic} className="mainPic" alt="Kid studying" />
+        </div>
+        <div className="serviceContainer">
+          <h1>Our Tutoring Services</h1>
+          <div className="serviceCards">
+            <div
+              className={`serviceCard ${flips[0] ? "selective" : ""}`}
+              onClick={() => handleFlip(0)}
+            >
+              {flips[0]
+                ? "We cover a variety of topics such as comprehension, grammar, reading and writing to further your child's literary skills, all the way up to Year 12."
+                : "K-12 English"}
+            </div>
+            <div
+              className={`serviceCard ${flips[1] ? "selective" : ""}`}
+              onClick={() => handleFlip(1)}
+            >
+              {flips[1]
+                ? "We offer a list of mathematical topics, ranging from basic arithmetic to HSC levels. All resources are school focused, ensuring that your child's needs are met. "
+                : "K-12 Maths"}
+            </div>
+            <div
+              className={`serviceCard ${flips[2] ? "selective" : ""}`}
+              onClick={() => handleFlip(2)}
+            >
+              {flips[2]
+                ? "Our OC classes focus on all branches: reading, mathematical reasoning and thinking skills. We prepare through practice papers, time management and exam techniques."
+                : "OC Prep"}
+            </div>
+            <div
+              className={`serviceCard ${flips[3] ? "selective" : ""}`}
+              onClick={() => handleFlip(3)}
+            >
+              {flips[3]
+                ? "Our expert tutors cover all topics within the Selective (reading, writing, mathematical reasoning and thinking skills). Where we tailor lessons for your child's learning. "
+                : "Selective"}
+            </div>
+          </div>
         </div>
         <div className="priceContainer">
           <h1>Our Pricing Plans</h1>

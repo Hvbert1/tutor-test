@@ -55,6 +55,8 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  font-size: 1.12em;
+  font-weight: 400;
 }
 
 .navContent a.active {
