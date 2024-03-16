@@ -18,8 +18,8 @@ export default function Home() {
             <button
               className="signButton"
               onClick={() =>
-                (window.location = "http://localhost:5173/contact")
-              } //FIX UP window location before hosting
+                (window.location = "https://studyandnotes.com.au/contact")
+              }
             >
               Send us a message to get started
             </button>

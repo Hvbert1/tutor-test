@@ -25,8 +25,8 @@ export default function Classes() {
           <div className="classMain">
             <h1>Personalised lessons and clear pricing.</h1>
             <p className="bio">
-              Study and Notes tutoring offers a variety of tutoring plans and
-              prices so you can find the right on for you.
+              Study and Notes offers a variety of tutoring plans and prices so
+              you can find the right one for you.
             </p>
             <button className="signButton" onClick={handleClick}>
               Send us a message to get started
@@ -42,7 +42,7 @@ export default function Classes() {
               onClick={() => handleFlip(0)}
             >
               {flips[0]
-                ? "We cover a variety of topics such as comprehension, grammar, reading and writing to further your child's literary skills, all the way up to Year 12."
+                ? "We cover a variety of topics such as comprehension, grammar, reading and writing to further your child's literary skills, from preschool to Year 12."
                 : "K-12 English"}
             </div>
             <div
@@ -66,7 +66,7 @@ export default function Classes() {
               onClick={() => handleFlip(3)}
             >
               {flips[3]
-                ? "Our expert tutors cover all topics within the Selective (reading, writing, mathematical reasoning and thinking skills). Where we tailor lessons for your child's learning. "
+                ? "Our expert tutors cover all topics within the Selective (reading, writing, mathematical reasoning and thinking skills), where we tailor each lesson for your child's learning. "
                 : "Selective"}
             </div>
           </div>
@@ -81,8 +81,8 @@ export default function Classes() {
                 <ul>
                   <li>Taught by active primary school teacher</li>
                   <li>K-6 group lessons for math & English</li>
-                  <li>Over 5 years of tutoring experience</li>
-                  <li>Max 5 kids per class</li>
+                  <li>Over 8 years of tutoring experience</li>
+                  <li> Small group size (Max 5 kids per class)</li>
                 </ul>
               </div>
               <div className="priceCardRate">$35/hour</div>
@@ -95,7 +95,10 @@ export default function Classes() {
                 <ul>
                   <li>University students, school duxes and captains</li>
                   <li>K-12 private lessons for math & English</li>
-                  <li>Carefully selected and profesionally trained</li>
+                  <li>
+                    Carefully selected and profesionally trained in the school
+                    curriculum
+                  </li>
                   <li>Mentors and role models, inspiring excellence</li>
                 </ul>
               </div>

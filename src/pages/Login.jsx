@@ -30,7 +30,7 @@ export default function Login() {
           <p>
             Log into your child's Student Portal via TutorBird below. If you
             haven't registered yet, you can do so{" "}
-            <a href="http://localhost:5173/registration">here.</a>
+            <a href="https://studyandnotes.com.au/registration">here.</a>
           </p>
         </div>
         <div className="tutorBirdContainer"></div>

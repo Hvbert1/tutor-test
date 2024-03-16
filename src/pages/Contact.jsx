@@ -14,14 +14,14 @@ export default function Contact() {
                 Have a question? <br /> We can help.
               </h1>
               <p className="contactText">
-                We understand there are many things to consider as you think
-                about working with a tutor. Our experts are always ready to
-                answer any questions, provide advice, and get you on the right
-                track.
+                As a teacher, I understand that finding the perfect tutor for
+                your child is quite the challenge. But don't worry! We are here
+                to answer any questions, offer advice, and guide you towards
+                finding the right fit.
               </p>
               <p>
-                Complete the form below, and we’ll be in touch within 1 business
-                day.
+                Complete the form below, and we’ll be in touch as soon as
+                possible.
               </p>
             </div>
             <img src={contactPic} className="contactPic" alt="Kid studying" />
