@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   useEffect(() => {
@@ -30,7 +31,7 @@ export default function Login() {
           <p>
             Log into your child's Student Portal via TutorBird below. If you
             haven't registered yet, you can do so{" "}
-            <a href="/registration">here.</a>
+            <Link to={"/registration"}>here. </Link>
           </p>
         </div>
         <div className="tutorBirdContainer"></div>

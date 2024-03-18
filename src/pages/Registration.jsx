@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Registration.css";
+import { Link } from "react-router-dom";
 
 export default function Registration() {
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function Registration() {
           <h1>TutorBird Sign-up</h1>
           <p>
             Use the form below to register. If you have already registered, you
-            can login <a href="/login">here.</a>
+            can login <Link to={"/login"}>here. </Link>
           </p>
         </div>
         <div className="tutorBirdRegContainer"></div>

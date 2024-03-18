@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import tutorLogo from "../assets/logo.png";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -8,49 +9,18 @@ export default function Navbar() {
     setDropdownOpen(!dropdownOpen);
   };
 
-  const currentPathname = window.location.pathname;
-  console.log("current path: " + currentPathname);
-
   return (
     <>
       <nav className="navContainer">
         <div className="navContent">
-          <a href="/home">
+          <CustomLink to="/">
             <img src={tutorLogo} className="logo" alt="Tutoring logo" />
-          </a>
+          </CustomLink>
           <ul className="navHeader">
-            <li>
-              <a
-                href="/about"
-                className={currentPathname === "/about" ? "active" : ""}
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="/classes"
-                className={currentPathname === "/classes" ? "active" : ""}
-              >
-                Classes
-              </a>
-            </li>
-            <li>
-              <a
-                href="/contact"
-                className={currentPathname === "/contact" ? "active" : ""}
-              >
-                Contact Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="/login"
-                className={currentPathname === "/login" ? "active" : ""}
-              >
-                Login
-              </a>
-            </li>
+            <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="/classes">Classes</CustomLink>
+            <CustomLink to="/contact">Contact Us</CustomLink>
+            <CustomLink to="/login">Login</CustomLink>
           </ul>
           <li className="navDropdown">
             <span
@@ -64,12 +34,24 @@ export default function Navbar() {
       </nav>
       {dropdownOpen && (
         <div className="dropdownContent">
-          <a href="/about">About</a>
-          <a href="/classes">Classes</a>
-          <a href="/contact">Contact Us</a>
-          <a href="/login">Login</a>
+          <CustomLink to="/about">About</CustomLink>
+          <CustomLink to="/classes">Classes</CustomLink>
+          <CustomLink to="/contact">Contact Us</CustomLink>
+          <CustomLink to="/login">Login</CustomLink>
         </div>
       )}
     </>
+  );
+}
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
   );
 }

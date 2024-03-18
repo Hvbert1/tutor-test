@@ -1,6 +1,7 @@
 import homePic from "../assets/2.png";
 import "./Home.css";
 import { Carousel } from "../components/Carousel";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -15,9 +16,9 @@ export default function Home() {
               a focus on confidence, Study and Notes provides excellent service,
               as seen through our fantastic tutors and amazing parent reviews!”
             </p>
-            <a href="/contact" className="signButton">
+            <Link to={"/contact"} className="signButton">
               Send us a message to get started
-            </a>
+            </Link>
           </div>
           <img src={homePic} className="homePic" alt="Kid studying" />
         </div>

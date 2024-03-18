@@ -38,6 +38,7 @@ body {
   align-items: center;
   padding: 0 1em;
   margin: auto;
+  list-style: none;
 }
 
 .navContent ul {
@@ -59,7 +60,7 @@ body {
   font-weight: 400;
 }
 
-.navContent a.active {
+.navContent .active {
   text-decoration: underline;
   color: #e8946e;
 }
