@@ -8,19 +8,19 @@ export const Carousel = () => {
     {
       key: 1,
       description:
-        '"My tutor, Sanchea, seemed to have a lesson for any obscure concept that I needed help with, from the big picture to the smallest detail. She also gave me a number of test-taking strategies, including the exact timing I needed to achieve on a test given my previous history.."',
-      person: "-Chidli",
+        '"Sanchea is amazing. She is not only a great teacher she is patient and kind and able to relate to my daughter. I have seen my daughter’s confidence grow since she started with Sanchea – thank you Sanchea you are brilliant!"',
+      person: "-Gabrielle",
     },
     {
       key: 2,
       description:
-        '"Sanchea is amazing. She is not only a great teacher she is patient and kind and able to relate to my daughter. I have seen my daughter’s confidence grow since she started with Sanchea – thank you Sanchea you are brilliant!"',
-      person: "-Gabrielle, Seaforth",
+        " We are very happy about the experience with our tutor overall! We love that after lesson my son Kevin was excited to talk about it and looked forward to the next lesson.",
+      person: "-Kristina",
     },
     {
       key: 3,
       description:
-        '"Sanchea has been an amazing and diligent tutor for me within english and maths. She has helped me  developed my analytical writing skills that I ended up transforming my grades from C to an A."',
+        '"Sanchea has been an amazing and diligent tutor for me within english and maths. She has helped me developed my analytical writing skills that I ended up transforming my grades from C to an A."',
       person: "-Aloha",
     },
   ];

@@ -9,6 +9,7 @@ export default function Navbar() {
   };
 
   const currentPathname = window.location.pathname;
+  console.log("current path: " + currentPathname);
 
   return (
     <>

@@ -15,14 +15,9 @@ export default function Home() {
               a focus on confidence, Study and Notes provides excellent service,
               as seen through our fantastic tutors and amazing parent reviews!”
             </p>
-            <button
-              className="signButton"
-              onClick={() =>
-                (window.location = "https://studyandnotes.com.au/contact")
-              }
-            >
+            <a href="/contact" className="signButton">
               Send us a message to get started
-            </button>
+            </a>
           </div>
           <img src={homePic} className="homePic" alt="Kid studying" />
         </div>

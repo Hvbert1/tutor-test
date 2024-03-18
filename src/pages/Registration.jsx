@@ -29,7 +29,7 @@ export default function Registration() {
           <h1>TutorBird Sign-up</h1>
           <p>
             Use the form below to register. If you have already registered, you
-            can login <a href="https://studyandnotes.com.au/login"> here.</a>
+            can login <a href="/login">here.</a>
           </p>
         </div>
         <div className="tutorBirdRegContainer"></div>

@@ -82,7 +82,7 @@ export default function Classes() {
                   <li>Taught by active primary school teacher</li>
                   <li>K-6 group lessons for math & English</li>
                   <li>Over 8 years of tutoring experience</li>
-                  <li> Small group size (Max 5 kids per class)</li>
+                  <li> Small group size (5 kids per class)</li>
                 </ul>
               </div>
               <div className="priceCardRate">$35/hour</div>
@@ -112,7 +112,7 @@ export default function Classes() {
                 <ul>
                   <li>Experienced and qualified primary school teacher</li>
                   <li>K-12 private lessons for math & English</li>
-                  <li>Over 5 years of tutoring experience</li>
+                  <li>Over 8 years of tutoring experience</li>
                 </ul>
               </div>
               <div className="priceCardRate">$64/hour</div>
