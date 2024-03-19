@@ -36,7 +36,7 @@
 
 .signButton {
   background-color: #e8946e;
-  border: none;
+  border: 2px solid #e8946e;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -45,6 +45,12 @@
   cursor: pointer;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.0125em;
+}
+
+.signButton:hover {
+  background-color: white;
+  color: #e8946e;
 }
 
 @media only screen and (max-width: 600px) {

@@ -12,3 +12,9 @@
   margin: 50px auto;
   max-width: 550px;
 }
+
+@media only screen and (max-width: 600px) {
+  .loginDescription p {
+    font-size: 1.0125em;
+  }
+}

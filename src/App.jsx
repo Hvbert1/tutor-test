@@ -10,29 +10,6 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
-  // let Component;
-  // switch (window.location.pathname) {
-  //   case "/home":
-  //   case "/":
-  //     Component = Home;
-  //     break;
-  //   case "/about":
-  //     Component = About;
-  //     break;
-  //   case "/classes":
-  //     Component = Classes;
-  //     break;
-  //   case "/contact":
-  //     Component = Contact;
-  //     break;
-  //   case "/login":
-  //     Component = Login;
-  //     break;
-  //   case "/registration":
-  //     Component = Registration;
-  //     break;
-  // }
-
   return (
     <div className="container">
       <Navbar></Navbar>

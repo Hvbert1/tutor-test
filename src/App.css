@@ -58,10 +58,27 @@ body {
   align-items: center;
   font-size: 1.12em;
   font-weight: 400;
+  position: relative;
+}
+
+.navContent ul a::after {
+  content: "";
+  position: absolute;
+  height: 2.5px;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  background-color: #e8946e;
+  transition: width 0.3s;
+}
+
+.navContent a:hover:after {
+  width: 100%;
 }
 
 .navContent .active {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2.5px;
   color: #e8946e;
 }
 
@@ -86,10 +103,10 @@ body {
 }
 
 ion-icon {
+  margin-top: -10px;
   font-size: 32px;
-  --ionicon-stroke-width: 16px;
   cursor: pointer;
-  color: white;
+  color: #fec667;
 }
 
 .footerContent {
@@ -125,16 +142,19 @@ ion-icon {
     display: block;
     cursor: pointer;
   }
+
   .dropdownContent {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: left;
-    width: 100%;
     padding: 1.5rem;
     text-align: left;
     box-shadow: 0 0 20px lightgray;
-    gap: 2rem;
+    gap: 1.25rem;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
   .dropdownContent a {

@@ -59,10 +59,10 @@ export default function About() {
               learning approach. We believe that every child learns differently,
               and by tailoring our lessons to the individual needs and learning
               styles of each student, we foster a deep understanding and a
-              genuine love for learning. This personalised approach not only
-              enhances academic performance but also nurtures the child's
-              confidence, paving the way for remarkable growth in both skills
-              and self-esteem.
+              genuine love for learning. This approach not only enhances
+              academic performance but also nurtures the child's confidence,
+              paving the way for remarkable growth in both skills and
+              self-esteem.
             </p>
             <p>
               Experience the difference with Study and Notes, where learning is

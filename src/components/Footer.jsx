@@ -10,10 +10,13 @@ export default function Footer() {
           <div className="footerCard">
             <h2>Find us online</h2>
             <div className="icons">
-              <a href="https://www.facebook.com/profile.php?id=61557405272092">
+              <a
+                href="https://www.facebook.com/profile.php?id=61557405272092"
+                target="_blank"
+              >
                 <ion-icon name="logo-facebook" aria-label="facebook"></ion-icon>
               </a>
-              <a href="https://instagram.com/studyandnotes26">
+              <a href="https://instagram.com/studyandnotes26" target="_blank">
                 <ion-icon
                   name="logo-instagram"
                   aria-label="instagram"

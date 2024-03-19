@@ -14,7 +14,7 @@ export const Carousel = () => {
     {
       key: 2,
       description:
-        " We are very happy about the experience with our tutor overall! We love that after lesson my son Kevin was excited to talk about it and looked forward to the next lesson.",
+        '"We are very happy about the experience with our tutor overall! We love that after lesson my son Kevin was excited to talk about it and looked forward to the next lesson."',
       person: "-Kristina",
     },
     {

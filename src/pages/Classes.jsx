@@ -58,7 +58,7 @@ export default function Classes() {
               onClick={() => handleFlip(2)}
             >
               {flips[2]
-                ? "Our OC classes focus on all branches: reading, mathematical reasoning and thinking skills. We prepare through practice papers, time management and exam techniques."
+                ? "Our OC classes focus on reading, mathematical reasoning and thinking skills. We prepare through practice papers, time management and exam techniques."
                 : "OC Prep"}
             </div>
             <div
@@ -66,7 +66,7 @@ export default function Classes() {
               onClick={() => handleFlip(3)}
             >
               {flips[3]
-                ? "Our expert tutors cover all topics within the Selective (reading, writing, mathematical reasoning and thinking skills), where we tailor each lesson for your child's learning. "
+                ? "Our expert tutors cover all topics within the Selective (reading, writing, mathematical reasoning and thinking skills). Here we tailor each lesson for your child's learning. "
                 : "Selective"}
             </div>
           </div>

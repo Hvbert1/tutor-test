@@ -33,12 +33,12 @@ export default function Navbar() {
         </div>
       </nav>
       {dropdownOpen && (
-        <div className="dropdownContent">
+        <ul className="dropdownContent">
           <CustomLink to="/about">About</CustomLink>
           <CustomLink to="/classes">Classes</CustomLink>
           <CustomLink to="/contact">Contact Us</CustomLink>
           <CustomLink to="/login">Login</CustomLink>
-        </div>
+        </ul>
       )}
     </>
   );

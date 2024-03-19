@@ -8,7 +8,13 @@
 }
 
 .tutorBirdRegContainer {
-  max-width: 550px;
+  max-width: 560px;
   margin: auto;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .registrationDescription p {
+    font-size: 1.0125em;
+  }
 }
