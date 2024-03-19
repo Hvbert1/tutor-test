@@ -20,8 +20,8 @@ export const Carousel = () => {
     {
       key: 3,
       description:
-        '"Sanchea has been an amazing and diligent tutor for me within english and maths. She has helped me developed my analytical writing skills that I ended up transforming my grades from C to an A."',
-      person: "-Aloha",
+        '"I am impressed, Theo said Venkat\'s method of teaching made it easier for him to understand the questions."',
+      person: "-Connie",
     },
   ];
   const updateIndex = (newIndex) => {
@@ -36,7 +36,10 @@ export const Carousel = () => {
   return (
     <div className="carousel">
       <h1> From our families...</h1>
-      <span className="material-symbols-outlined star-symbol">family_star</span>
+      <span className="material-symbols-outlined star-symbol">
+        volunteer_activism
+      </span>
+
       <div
         className="inner"
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}

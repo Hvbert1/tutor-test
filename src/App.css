@@ -64,7 +64,7 @@ body {
 .navContent ul a::after {
   content: "";
   position: absolute;
-  height: 2.5px;
+  height: 2px;
   left: 0;
   bottom: 0;
   width: 0%;
@@ -78,7 +78,7 @@ body {
 
 .navContent .active {
   text-decoration-line: underline;
-  text-decoration-thickness: 2.5px;
+  text-decoration-thickness: 2px;
   color: #e8946e;
 }
 

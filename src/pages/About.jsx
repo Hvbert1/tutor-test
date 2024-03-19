@@ -49,10 +49,9 @@ export default function About() {
           <h1>Our philosophy</h1>
           <div className="personalBody">
             <p>
-              Our philosophy at Study and Notes is simple yet impactful. Founded
-              by a passionate primary school teacher, we offer tutoring services
-              for students of all ages, from primary to high school, in a
-              dynamic and engaging manner.
+              Founded by a passionate primary school teacher, we offer tutoring
+              services for students of all ages, from primary to high school, in
+              a dynamic and engaging manner.
             </p>
             <p>
               At the heart of our teaching methodology lies the student-centered
