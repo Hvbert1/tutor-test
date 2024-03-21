@@ -76,9 +76,15 @@ body {
   width: 100%;
 }
 
+.navContent .active a:hover:after {
+  width: 0%;
+  transition: width 0s;
+}
+
 .navContent .active {
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
   color: #e8946e;
 }
 
@@ -153,7 +159,7 @@ ion-icon {
     gap: 1.25rem;
   }
 
-  ul {
+  .dropdownContent li {
     list-style-type: none;
   }
 
