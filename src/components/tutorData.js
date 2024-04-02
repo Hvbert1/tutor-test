@@ -22,7 +22,7 @@ const tutors = [
     pictureUrl: tutor2,
     title: "Math and English tutor",
     description:
-      "The degree I’m studying is bachelor or politics philosophy and economics at UNSW. For my pastime, I love cooking, spending time with my family and engaging in self and skin care!     ",
+      "The degree I’m studying is the Bachelor of Politics Philosophy and Economics at UNSW. For my pastime, I love cooking, spending time with my family and engaging in self and skin care! ",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const tutors = [
     pictureUrl: tutor3,
     title: "Math and English tutor",
     description:
-      "I enjoy doing art in my free time and baking desserts. I also like spending time with my family. I’m currently studying a bachelor of nursing (advanced studies) at USYD!!",
+      "I enjoy doing art in my free time and baking desserts. I also like spending time with my family. I’m currently studying a Bachelor of Nursing (Advanced Studies) at USYD!!",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const tutors = [
     pictureUrl: tutor4,
     title: "Math and English tutor",
     description:
-      "I'm studying a Bachelor of business and information systems at UTS. For fun I play a lot of cricket and video games, and I'm really passionate about everything I try.",
+      "I'm studying a Bachelor of Business and Information systems at UTS. For fun I play a lot of cricket and video games, and I'm really passionate about everything I try.",
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const tutors = [
     pictureUrl: tutor8,
     title: "Math and English tutor",
     description:
-      "I enjoy playing the piano in my free time and attend weekly piano lessons to keep in touch with this passion. I also have a passion for teaching as I aspire to be a paediatric speech pathologists.",
+      "I enjoy playing the piano in my free time and attend weekly piano lessons to keep in touch with this passion. I also have a passion for teaching as I aspire to become a paediatric speech pathologists.",
   },
 ];
 
